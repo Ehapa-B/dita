@@ -1,0 +1,489 @@
+body {
+ text-align: center;
+ background-color: #fff;
+}
+@font-face {
+	font-family: "Aquatico";
+	src: url(./fonts/AQUATICO-REGULAR.OTF);
+}
+@font-face {
+	font-family: "Pier Sans";
+	src: url(./fonts/PierSans-FreeForPersonalUse/PierSans-Bold.otf);
+	src: url(./fonts/PierSans-FreeForPersonalUse/PierSans-Regular.otf);
+}
+@font-face {
+	font-family: "JUST Sans";
+	src: url(./fonts/JUST\ Sans\ Regular.otf);
+	src: url(./fonts/JUST\ Sans\ ExBold.otf);
+}
+.form-control {
+	box-shadow: none;		
+	font-weight: normal;
+	font-size: 13px;
+}
+.navbar {
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 0px solid #fff;
+	border-radius: 0;
+    font-family: "Pier Sans";
+}
+.nav-link img {
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	margin: -8px 0;
+	float: left;
+	margin-right: 10px;
+	font-family: "Pier Sans";
+	font-size: 17px;
+}
+.navbar .navbar-brand {
+	padding-left: 0;
+	font-size: 20px;
+	padding-right: 50px;
+	margin: 0  2.0rem 0 0;
+	margin-left: 3.5rem;
+	font-family: "Pier Sans";
+	font-size: 17px;
+}
+.navbar .navbar-brand b {
+	color: #e79595;
+	font-family: "Pier Sans";
+	font-size: 17px;
+	background-color: #fff;		
+}
+.navbar .form-inline {
+	display: inline-block;
+}
+.navbar-nav :hover{
+	color: blue;
+}
+.dropdown {
+	float: left;
+	margin-left: 50px;	
+}
+.dropdown :hover{
+	color: blue;
+}
+.nav-item .nav-link{
+	font-size: 30px;
+}
+.navbar a {
+	color: black;
+	margin-left: 10px;
+	font-family: "Pier Sans";
+	font-size: 17px;
+}
+.navbar .sign-up-btn {
+	min-width: 110px;
+	max-height: 96px;
+    background-color: rgb(231, 99, 99);
+	color: #fff;
+	margin-left: 10px;
+	margin-right: 50px;
+	border-radius: 1rem;
+}
+.navbar .sign-up-btn .btn:hover{
+	background-color: #fff;
+	color: black;
+}
+.navbar .dropdown{
+	margin-right: 10px;
+}
+.navbar .dropdown :hover{
+	color: blue;
+	background-color: #fff;
+}
+.navbar .dropdown-menu {
+	color: black;
+	font-weight: normal;
+	border-radius: 1.5rem;
+	border-color: white;
+	box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .nav-item{
+    margin-left: 10px;
+    font-size: 17px;
+    font-family: "Pier Sans"; 
+}
+.nav-li{
+   margin-left: 0px;
+   margin-right: 10px;
+}
+.navbar a, .navbar a:active {
+	color: rgb(8, 8, 8);
+	padding: 8px 20px;
+	background: transparent;
+	line-height: normal;
+}
+.navbar a:active:hover{
+	color: blue;
+}
+.navbar .navbar-form {
+	border: none;
+}
+.navbar .action-form {
+	width: 80px;
+	padding: 20px;
+	left: auto;
+	right: 0;
+	font-size: 14px;
+}
+.navbar .action-form a {		
+	padding: 0 !important;
+	font-size: 14px;
+}
+.navbar .action-form .hint-text {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+.navbar .btn-sign-up-btn, .navbar .btn-sign-up-btn:active {
+	color: #fff;
+	background: #33cabb !important;
+	border: none;
+}	
+.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+	color: #fff;
+	background: #31bfb1 !important;
+}
+h1{
+	font-family: "Aquatico";
+	font-weight: bold;
+	font-size: 10px;
+	margin-top: 30px;
+	margin-bottom: 90px;
+	letter-spacing: 2px;
+}
+h3{
+	font-family: "Pier Sans";
+	src: url(./fonts/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+	color: rgb(95, 86, 86);
+	word-spacing: normal;
+	width: fit-content;
+	font-size: 5px;
+}
+
+
+#containers{
+	background-color: white;
+	color: black;
+	margin-right: 1px;
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	padding-left: 90px;
+  
+}
+.pic{
+	width: 72%;
+	float: left;
+	position: absolute;
+	margin-left: 740px;
+	padding: 0% 2% ;
+}
+.col .btn{
+	background-color: rgb(235, 89, 109);
+	color: white;
+	border-radius: 1rem;
+} 
+.col .btn:hover{
+	background-color: transparent;
+	color: red;
+}
+  
+.press-logo{
+	margin-top: 30px;
+	padding-right:20px;
+	margin-right: 30px;
+}
+
+.navbar .action-buttons .dropdown-toggle::after {
+	display: none;
+}
+.form-check-label input {
+	position: relative;
+	top: 1px;
+}
+@media screen and (max-width: 1020px) {
+body{
+    text-align: center;
+}
+.navbar .navbar-brand{
+	margin-left: 1.5rem;
+}
+.navbar a, .navbar a:active {
+	margin: 0px;
+}
+.dropdown{
+    margin-left: 0px;
+    margin-top: 10px;
+    box-shadow: none;
+}
+#containers{
+    text-align: center;
+    margin: 2px;
+    top: 1px;
+    padding-left: 0px;
+	bottom: 5px;
+}    
+.pic{
+    width: 100%;
+    position: static;
+    float: none;
+	margin-bottom: 2px;
+    margin-left: 5px;
+}
+.navbar .sign-up-btn {
+    position: static;
+    margin: 1px;
+    margin-left:-6.0px;
+    border-radius: 1rem;
+}
+
+.navbar .nav-item{
+ margin: 0px;
+ margin-top: 1px;
+ color: #000;
+ margin-left: -8px;
+}
+.nav-li{
+ margin: 0px;
+ margin-left: 1px;
+}
+.nav-i{
+  font-size: 9px;
+}
+.press-logo{
+ margin: 50px 5px 20px;
+ top: 10px;
+ bottom: 10%;
+}
+.link{
+ margin-left: 0px;
+ margin-top: 0px;
+}
+.nav-link{
+	margin-left: 0px;
+	display: none;
+}
+h3{
+	font-size: 50px;
+	line-break: normal;
+}
+.navbar .lo{
+	margin-right: 990px;
+ }
+}
+
+@media (min-width: 1200px){
+	.form-inline .input-group {
+		width: 300px;
+		margin-left: 30px;
+	}
+    
+}
+@media (max-width: 768px){
+	.navbar .dropdown-menu.action-form {
+		width: 100%;
+		padding: 10px 15px;
+		background: transparent;
+		border: none;
+	}
+	.navbar .form-inline {
+		display: block;
+	}
+	.navbar .input-group {
+		width: 100%;
+	}
+}
+
+/* big landscape tablets, laptops, and desktops */
+@media screen and (min-width: 2040px) {
+	.form-control {
+		box-shadow: none;		
+		font-weight: normal;
+		font-size: 113px;
+	}
+	.navbar {
+		background: #fff;
+		padding-left: 16px;
+		padding-right: 16px;
+		border-bottom: 0px solid #fff;
+		border-radius: 0;
+		font-family: "Pier Sans";
+	}
+	.nav-link img {
+		border-radius: 100%;
+		width: 136px;
+		height: 136px;
+		margin: -8px 0;
+		float: left;
+		margin-right: 10px;
+		font-family: "Pier Sans";
+		font-size: 117px;
+	}
+	.navbar .navbar-brand {
+		padding-left: 0;
+		font-size: 20px;
+		padding-right: 50px;
+		margin: 0  2.0rem 0 0;
+		margin-left: 3.5rem;
+		font-family: "Pier Sans";
+		font-size: 117px;
+	}
+	.navbar .navbar-brand b {
+		color: #e79595;
+		font-family: "Pier Sans";
+		font-size: 117px;		
+	}
+	.navbar .form-inline {
+		display: inline-block;
+	}
+	.dropdown {
+		float: left;
+		margin-left: 50px;	
+	}
+	.dropdown :hover{
+		color: blue;
+	}
+	.nav-item .nav-link{
+		font-size: 30px;
+	}
+	.navbar a {
+		color: black;
+		margin-left: 10px;
+		font-family: "Pier Sans";
+		font-size: 17px;
+	}
+	.navbar .sign-up-btn {
+		min-width: 110px;
+		max-height: 96px;
+		background-color: rgb(231, 99, 99);
+		color: #fff;
+		margin-left: 10px;
+		margin-right: 50px;
+		border-radius: 1rem;
+	}
+	.navbar .sign-up-btn .btn:hover{
+		background-color: #fff;
+		color: #fff;
+	}
+	.navbar .dropdown{
+		margin-right: 10px;
+	}
+	.navbar .dropdown :hover{
+		color: blue;
+		background-color: #fff;
+	}
+	.navbar .dropdown-menu {
+		color: black;
+		font-weight: normal;
+		border-radius: 0px;
+		border-color: #e5e5e5;
+		box-shadow: 0 2px 8px rgba(0,0,0,.05);
+	}
+	.navbar .nav-item{
+		margin-left: 10px;
+		font-size: 17px;
+		font-family: "Pier Sans"; 
+	}
+	.nav-li{
+	   margin-left: 0px;
+	   margin-right: 10px;
+	}
+	.navbar a, .navbar a:active {
+		color: rgb(8, 8, 8);
+		padding: 8px 20px;
+		background: transparent;
+		line-height: normal;
+	}
+	.navbar a:active:hover{
+		color: blue;
+	}
+	.navbar .navbar-form {
+		border: none;
+	}
+	.navbar .action-form {
+		width: 80px;
+		padding: 20px;
+		left: auto;
+		right: 0;
+		font-size: 34px;
+	}
+	.navbar .action-form a {		
+		padding: 0 !important;
+		font-size: 34px;
+	}
+	.navbar .action-form .hint-text {
+		text-align: center;
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+	.navbar .btn-sign-up-btn, .navbar .btn-sign-up-btn:active {
+		color: #fff;
+		background: #33cabb !important;
+		border: none;
+	}	
+	.navbar .btn-primary:hover, .navbar .btn-primary:focus {		
+		color: #fff;
+		background: #31bfb1 !important;
+	}
+	h1{
+		font-family: "Aquatico";
+		font-weight: bolder;
+		font-size: 190px;
+		margin-top: 290px;
+		margin-bottom: 90px;
+	}
+	h3{
+		font-family: "Pier Sans";
+		src: url(./fonts/PierSans-FreeForPersonalUse/PierSans-Light.otf);
+		font-weight: 2px;
+		color: rgb(95, 86, 86);
+		font-size: 200px;
+	}
+	
+	
+	#containers{
+		background-color: white;
+		color: black;
+		margin-right: 1px;
+		text-align: left;
+		margin-bottom: 10px;
+		margin-top: 20px;
+		padding-left: 90px;
+		font-size: 10px;
+	  
+	}
+	.pic{
+		width: 90%;
+		float: left;
+		position: absolute;
+		margin-left: 1290px;
+		padding: 0% 2% ;
+	}
+	.col .btn{
+		background-color: rgb(235, 89, 109);
+		color: white;
+		border-radius: 1rem;
+	} 
+	.col .btn:hover{
+		background-color: #fff;
+	}
+	  
+	.press-logo{
+		margin-top: 30px;
+		padding-right:20px;
+		margin-right: 30px;
+	}
+	
+	.navbar .action-buttons .dropdown-toggle::after {
+		display: none;
+	}
+	.form-check-label input {
+		position: relative;
+		top: 1px;
+	}	
+}
